@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Grow</title>
+    <!-- This property defines how much an item will grow inside the container as compared to the other items. It can be defined as the ability of an item to grow as compared to the other items of the container.
+
+For example, if we set flex-grow to 1 for all items, each item will set to an equal size in the container. But if we give any of the items a value of 2, then the corresponding item will take up space twice than the others. 
+
+Go to below link you will get more details
+https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow
+-->
+<style>
+    .container  
+    {
+        width: 500px;
+        margin: 20% auto;
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+
+    }
+    .items 
+    {
+       width: 100px;
+        border: 0px solid black;
+        /* margin: 3px; */
+    }
+   
+    .item2
+    {
+       flex-grow: 1;
+    }
+    .item1
+    {
+        /* flex-grow: 2; */
+    }
+    .item3
+    {
+        flex-grow: 3;
+    }
+    .item4  
+    {
+        /* flex-grow: 4; */
+    }
+   
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="items item1">1</div>
+        <div class="items item2">2</div>
+        <div class="items item3">3</div>
+        <div class="items item4">4</div>
+    </div>
+    <button>Vipul</button>
+    <input type="text">
+</body>
+</html>

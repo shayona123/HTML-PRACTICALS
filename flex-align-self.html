@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-align-self</title>
+    <!-- 
+        Align-self ==> you can vertically align individual items.
+        Property :- auto,flex-start,flex-end,center,strech,baseline.
+     -->
+     <style>
+        .container  
+        {
+            width: 500px;
+            height: 300px;
+            border: 1px solid black;
+            margin: 20% auto;
+            display: flex;
+        }
+        .items
+        {
+            width: 200px;
+            height: 100px;
+            border: 2px solid black;
+        }
+        .item1  
+        {
+            align-self: flex-end;
+        }
+
+     </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items item1">1</div>
+        <div class="items item2">2</div>
+        <div class="items item3">3</div>
+    </div>
+</body>
+</html>

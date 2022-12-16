@@ -1,0 +1,137 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right,#27c6da,#5b6cc0);
+    
+}
+.signup-wrap
+{
+    width: 500px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0,0.1);
+    background-color: white;
+}
+.signup-top
+{
+    padding: 40px 40px 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+h2
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 32px;
+    color: #27c6da;
+}
+.input-wrap
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+p
+{
+    font-size: 13px;
+    color: #4e585f;
+}
+span
+{
+    color: #27c6da;
+    font-weight: 600;
+    cursor: pointer;
+}
+input
+{
+    font-size: 14px;
+    font-weight:500;
+    padding: 4px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #e4f0f6;
+    transition: 500ms ease all;
+}
+input:focus
+{
+    outline: none;
+    box-shadow: 0 1px bisque;
+}
+input[type="checkbox"]
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+}
+input[type="checkbox"]:focus
+{
+    outline: none;
+    box-shadow: none;
+    border-color: none;
+}
+button
+{
+    cursor: pointer;
+    padding: 15px 60px;
+    border-radius: 30px;
+    font-weight: 600;
+    border:none ;
+    color: #e4f0f6;
+    background-color: #27c6da;
+    margin-right: 16px;
+}
+button:hover
+{
+    background-color: #5b5dd5;
+    transform: scale(0.99);
+}
+.signup-bottom
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(16, 154, 234);
+    padding: 60px 40px 40px;
+    color: #e4f0f6;
+}
+h3
+{
+    font-weight: 600;
+    font: size 13px;
+}
+ul
+{
+    display: flex;
+    margin-top: 16px;
+    list-style: none;
+}
+li
+{
+    margin-right: 40px;
+    font-size: 24px;
+    cursor: pointer;
+}
+li:last-child
+{
+margin-right: 0;
+}
+i
+{
+    transition: 500ms ease all;
+}
+i:hover
+{
+    color:rgb(106, 167, 247) ;
+}  

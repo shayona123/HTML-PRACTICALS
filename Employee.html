@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration</title>
+    <link rel="stylesheet" href="emp.css">
+</head>
+<body>
+        <div class="wrapper">
+                <div class="title">
+                   Employee Registration Form
+                </div>
+                <form action="">
+                <div class="form">
+                     <div class="input_field">
+                        <label for="Name">Name</label>
+                        <input type="text" class="input">
+                     </div>
+                     <div class="input_field">
+                        <label for="Email">Email</label>
+                        <input type="email" class="input">
+                     </div>
+                    
+                    
+                     <div class="input_field">
+                        <label for="Address">Phone number</label>
+                        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="input">
+                     </div>
+                     <div class="input_field">
+                        <label for="Name">Address</label>
+                        <textarea class="textarea"></textarea>
+                     </div>
+                     <div class="input_field">
+                        <label>Gender</label>
+                        <div class="custom_select">
+                          <select>
+                            <option value="">Select</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                          </select>
+                        </div>
+                     </div> 
+
+                     <div class="input_field">
+                        <label>Country</label>
+                        <div class="custom_select">
+                          <select>
+                            <option value="">Select</option>
+                            <option value="male">India</option>
+                            <option value="female">Canada</option>
+                            <option value="female">Brazil</option>
+                            <option value="female">South Africa</option>
+                          </select>
+                        </div>
+                     </div> 
+                     <div class="kk">
+                        <label for="" style="margin-right:15px;">Sports</label>
+                     
+                     <div class="input_field terms">
+                        <label class="check">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <p>Cricket</p>
+                     </div>
+                     <div class="input_field terms">
+                        <label class="check">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <p>Football</p>
+                     </div>
+                     <div class="input_field terms">
+                        <label class="check">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <p>Hockey</p>
+                     </div>
+                  </div>
+                  <div class="butn">
+                     <div class="input_field">
+                        <input type="submit" value="Register" class="btn">
+                     </div>
+                     <div class="input_field">
+                        <input type="reset"  class="btn">
+                     </div>
+                  </div>
+                </div>
+               </form>
+        </div>
+</body>
+</html>
